@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #101010; /* Preto escuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Texto branco */
+}
+
+.login-container {
+    background-color: #1e1e1e; /* Cinza escuro */
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 20px;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    color: #00cc00; /* Verde */
+}
+
+.login-header p {
+    color: #555; /* Cinza mais claro */
+}
+
+form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00cc00; /* Verde */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: #191919; /* Preto ligeiramente mais claro */
+    color: #fff; /* Texto branco */
+    border: 1px solid #00cc00; /* Verde */
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00cc00; /* Verde */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #009900; /* Verde mais escuro */
+}
+
+.login-options a {
+    text-decoration: none;
+    color: #00cc00; /* Verde */
+}
+
+.login-options span {
+    color: #333; /* Cinza */
+    margin: 0 10px;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-button.facebook {
+    background-color: #1877f2; /* Azul do Facebook */
+    color: #fff; /* Texto branco */
+}
+
+.social-button.google {
+    background-color: #4285f4; /* Azul do Google */
+    color: #fff; /* Texto branco */
+}
+
+.social-button:hover {
+    background-color: #000; /* Preto */
+}
